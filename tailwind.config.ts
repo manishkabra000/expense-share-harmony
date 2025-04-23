@@ -52,6 +52,27 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+                // Splitwisely custom colors
+                expense: {
+                    red: '#FF5757',
+                    green: '#4CAF50',
+                },
+                splitwisely: {
+                    primary: '#9b87f5',
+                    secondary: '#7E69AB',
+                    tertiary: '#6E59A5',
+                    dark: '#1A1F2C',
+                    light: '#D6BCFA',
+                },
+                soft: {
+                    green: '#F2FCE2',
+                    yellow: '#FEF7CD',
+                    orange: '#FEC6A1',
+                    purple: '#E5DEFF',
+                    pink: '#FFDEE2',
+                    blue: '#D3E4FD',
+                    gray: '#F1F0FB',
+                },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
