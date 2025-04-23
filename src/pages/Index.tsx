@@ -1,3 +1,4 @@
+
 import MainLayout from "@/components/layout/MainLayout";
 import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
 import { BalanceSummary } from "@/components/dashboard/BalanceSummary";
@@ -7,7 +8,7 @@ import { useState, useEffect } from "react";
 import { AddExpenseModal } from "@/components/expenses/AddExpenseModal";
 import { useAuth } from "@/hooks/useAuth";
 import { useNavigate } from "react-router-dom";
-import Button from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";  // Changed from Button to button, and used named import
 
 export default function Index() {
   const [isAddExpenseOpen, setIsAddExpenseOpen] = useState(false);
